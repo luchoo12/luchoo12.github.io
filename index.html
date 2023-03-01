@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Personal Teconologico</title>
+    <!-- Css -->
+    <link rel="stylesheet" href="index.css">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bevan&display=swap" rel="stylesheet">
+      <!-- otra -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Bevan&display=swap" rel="stylesheet">
+      <!-- otra -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+      <!-- otra -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap" rel="stylesheet">
+      <!-- iconos de Bootstrap -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+      <!-- Open Graph Data -->
+      <meta property="og:title" content="Página web CV Luciano Montaño" />
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content=" http://www.example.com" />
+      <meta property="og:image" content="foto-perfil.jpeg"/>
+      <meta property="og:description" content="Descripcion" />
+      <meta property="og:site_name" content="Nombre de la web, i.e. Moz" /meta property="fb:admins" content="ID de Facebook" />
+</head>
+<body>
+    <!-- Nav -->
+    <nav class="barra navbar sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Inicio</a>
+          <a class="navbar-brand" href="#">Info personal</a>
+          <a class="navbar-brand" href="#experiencia">Experiencia</a>
+          <a class="navbar-brand" href="#habilidades">Habilidades</a>
+        </div>
+      </nav>
+    <!-- Info personal -->
+    <article id="info-personal" class="info-personal container-fluid">
+        <img src="foto-perfil.jpg" class="img-fluid rounded mx-auto d-block img-thumbnail foto-personal" width="250px" height="250px" alt="Foto de perfil">
+        <h1 class="text-center">Luciano Montaño</h1>
+        <div class="titulo-info container-fluid d-flex justify-content-center">
+            <h2 class="justify-content-center"><b>SOBRE MÍ</b></h2>
+            <div class="spinner-2 spinner-border text-secondary" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+        </div>
+        <div class="texto-info container-fluid d-flex justify-content-center">
+            <ul>
+                <li>Nombre: Luciano</li>
+                <li>Apellido: Montaño</li>
+                <li>Edad: 26</li>
+                <li>Localidad: Mar del plata, Buenos Aires.</li>
+                <li>Estudios formales: Universitario en curso.</li>
+            </ul>
+        </div>
+    </article>
+    <!-- Experiencia -->
+    <article id="experiencia" class="seccion-experiencia">
+        <div class="titulo-experiencia text-center container-fluid">
+            <h2>EXPERIENCIA</h2>
+            <div class="spinner spinner-border text-secondary" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+        </div>
+        <div class="texto-experiencia text-center container-fluid">
+            <h3><p> En el mundo de la programación y tecnologia estoy buscando mi primer empleo It. Tengo mucho entusiasmo por encontrarlo y poder seguir mejorando mis habilidades y mi productividad a la hora de trabajar para poder superarme cada vez más.</p>
+            <p>Soy un estudiante autodidacta que se fue formando a través de cursos y libros de bibliografÍa. He realizado por ejemplo las formaciones de "Codo a Codo 4.0" de la Ciudad de Buenos Aires y tambien he terminado la 1ra Etapa del curso "Sé Programar" esperando a que empiece la 2da etapa del curso.</p>
+            <p>He diseñado páginas web por mi cuenta y he generados un par de proyectos en mi Github, es por eso que mi objetivo es poder conseguir en trabajo profesional estable, para poder adaptarme bien a las metodologías y exigencias de una empresa. <p></h3>
+        </div>
+            <div class="links-experiencia text-center row container-fluid">
+                <div class="col-s-12 col-md-6">
+                    <a href="https://www.buenosaires.gob.ar/educacion/codocodo/el-programa">Codo a codo 4.0</a>
+                </div>
+                <div class="col-s-12 col-md-6">
+                    <a href="https://www.argentina.gob.ar/economia/conocimiento/argentina-programa">Sé Programar</a>
+                </div>
+                
+            </div>
+    </article>
+    <!-- Habilidades -->
+    <article id="habilidades" class="habilidades">
+        <div class="texto-habilidades text-center container-fluid">
+            <h2>HABILIDADES / SKILLS</h2>
+                <div class="spinner-3 spinner-border text-secondary" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+            <h3>En los cursos que he realizado y en mi trayectoria, mis mejores skills son:</h3>
+                <div class="seccion-habilidades">
+                    <button id="boton" type="button" class="btn btn-success">HTML</button>
+                    <button id="boton2" type="button" class="btn btn-success">CSS</button>
+                    <button id="boton3" type="button" class="btn btn-success">JavaScript</button>
+                    <button id="boton4" type="button" class="btn btn-success">Vue.js</button>
+                    <button id="boton5" type="button" class="btn btn-success">Bootstrap</button>
+                </div>
+                <div>
+                </div>
+            <h3>Además tengo cierta experiencia en:</h3>
+                <div class="seccion-habilidades">
+                    <button type="button" class="btn btn-info">Python</button>
+                    <button type="button" class="btn btn-info">Django</button>
+                    <button type="button" class="btn btn-info">MySQL</button>
+                    <button type="button" class="btn btn-info">Vue.js</button>
+                 </div>
+            <h3>He visto alguna vez, pero no con frecuencia:</h3>
+                <div class="seccion-habilidades">
+                    <button type="button" class="btn btn-warning">C#</button>
+                    <button type="button" class="btn btn-warning">TypeScript</button>
+                    <button type="button" class="btn btn-warning">React</button>
+                    <button type="button" class="btn btn-warning">Java</button>
+                 </div>
+        
+        <h3>Otras tecnologías en las que me gustaría profundizar son:</h3>
+                <div class="seccion-habilidades">
+                    <button type="button" class="btn btn-secondary">MongoDB</button>
+                    <button type="button" class="btn btn-secondary">PHP</button>
+                 </div>
+        </div>
+    </article>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <footer class=" d-flex  flex-column align-items-center justify-content-center">
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <!-- Twitter -->
+        <a href="https://twitter.com/luchomonta01" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-twitter"></i>
+        </a>
+        <!-- Instragram -->
+        <a href="https://www.instagram.com/lucho_monta/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <!-- Github -->
+        <a href="https://twitter.com/luchomonta01" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <!-- Linkedin -->
+        <a href="https://www.linkedin.com/in/luciano-ivan-monta%C3%B1o-7461a0220/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <!--Correo -->
+        <a href="mailto:lucianomontagno96@gmail.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+       <h6>Creado por Luciano Montaño (2022) &#169;</h6>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
